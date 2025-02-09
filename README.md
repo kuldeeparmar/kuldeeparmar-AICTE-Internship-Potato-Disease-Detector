@@ -4,8 +4,10 @@ A machine learning project to detect diseases in potato leaves using Convolution
 
 ## Table of Contents
 - [Installation](#installation)
-- [Usage](#usage)
+- [Dataset](#dataset)
+- [Model](#model)
 - [Contributing](#contributing)
+- [License](#license)
 
 
 ## Installation
@@ -18,6 +20,7 @@ git clone https://github.com/kuldeeparmar/kuldeeparmar-AICTE-Internship-Potato-D
 
 # Navigate to the project directory
 cd kuldeeparmar-AICTE-Internship-Potato-Disease-Detector.git
+
 # Install dependencies
 pip install -r requirements.txt
 
@@ -25,6 +28,14 @@ pip install -r requirements.txt
 streamlit run web.py
 
 ```
+
+# Dataset
+The dataset used in this project is available at this [Repo](https://github.com/JayRathod341997/AICTE-Internship-files). Place the dataset in the dataset/ folder.
+
+# Model
+
+This project uses a Convolutional Neural Network (CNN) implemented in TensorFlow/Keras. The model architecture is defined in model/.
+
 
 # Contributing
 
